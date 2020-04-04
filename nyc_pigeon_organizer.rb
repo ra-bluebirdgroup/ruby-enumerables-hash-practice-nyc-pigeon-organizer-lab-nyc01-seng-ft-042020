@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
   # data.flatten
   # data.uniq
   data.each{|i| new_hash << i }
-
+new_hash
 end
