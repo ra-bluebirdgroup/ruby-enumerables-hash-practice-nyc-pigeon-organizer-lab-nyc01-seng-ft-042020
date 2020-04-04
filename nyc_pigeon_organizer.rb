@@ -5,7 +5,5 @@ def nyc_pigeon_organizer(data)
   data.uniq
   data.invert
      
-
-  }
 data
 end
