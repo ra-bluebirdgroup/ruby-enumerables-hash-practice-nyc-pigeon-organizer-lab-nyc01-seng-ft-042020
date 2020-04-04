@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
   # data.uniq
   data.each do |atr|
     new_hash <<  art.invert
-   end
  end
  new_hash
 end
