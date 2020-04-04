@@ -4,4 +4,4 @@ def nyc_pigeon_organizer(data)
   # data.flatten
   # data.uniq
   data.each do |atr|
-   atr.invert 
+   atr.invert
