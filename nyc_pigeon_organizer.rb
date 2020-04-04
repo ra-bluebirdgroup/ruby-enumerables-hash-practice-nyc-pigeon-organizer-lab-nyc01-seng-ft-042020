@@ -5,8 +5,7 @@ def nyc_pigeon_organizer(data)
   # data.uniq
   data.each{|i| names + i }
   pigeons_by_name = %w{new_hash}.inject do |memo, name|
-   memo.length > word.length ? memo : word
+    memo : word
 end
-longest
-new_hash
+pigeons_by_name
 end
