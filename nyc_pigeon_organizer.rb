@@ -13,4 +13,11 @@
         end
 
         if !new_hash[name][properties].include?[attributes]
-           new_hash[name][properties] << attributes
+           new_hash[name][properties] << attributes.to_s
+         end
+
+       end
+     end
+   end
+   new_hash
+ end 
