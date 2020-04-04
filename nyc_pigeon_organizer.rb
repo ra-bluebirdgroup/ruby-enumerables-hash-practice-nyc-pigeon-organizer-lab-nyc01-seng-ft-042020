@@ -4,9 +4,9 @@ def nyc_pigeon_organizer(data)
   # data.flatten
   # data.uniq
   data.each do |atr|
-    atr.each do |adj|
+    # atr.each do |adj|
     new_hash << adj
-   end
+  #  end
  end
  new_hash
 end
