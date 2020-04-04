@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
   data.flatten
   data.uniq
   data.each {|key, value| value: key }
-
+data 
 end
