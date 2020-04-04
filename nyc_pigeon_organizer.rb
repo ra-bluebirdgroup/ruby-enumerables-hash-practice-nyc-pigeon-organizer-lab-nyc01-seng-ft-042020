@@ -12,7 +12,7 @@
           new_hash[name][properties] = []
         end
 
-        if !new_hash[name][properties].include?[attributes]
+        if !new_hash[name][properties].include?(attributes)
            new_hash[name][properties] << attributes.to_s
          end
 
