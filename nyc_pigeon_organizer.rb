@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   # data.uniq
   data.each do |atr|
    atr.invert
-   atr 
- end  
+   atr
+ end
 
 end 
