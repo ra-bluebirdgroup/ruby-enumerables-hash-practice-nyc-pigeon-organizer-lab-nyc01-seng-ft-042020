@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   # data.flatten
   # data.uniq
   data.each do |atr|
-    new_hash <<  atr.invert
+    new_hash <<  atr.invert()
  end
  new_hash
 end
