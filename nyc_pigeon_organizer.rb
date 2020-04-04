@@ -8,9 +8,10 @@ def nyc_pigeon_organizer(data)
     attributes.each{ |adj| names << adj}
   }
   names.uniq!
+  binding.pry
  #pigeons_by_name = {names}.inject do |memo, name|
 # pigeons_by_name
 
 names
-binding.pry
+
 end
