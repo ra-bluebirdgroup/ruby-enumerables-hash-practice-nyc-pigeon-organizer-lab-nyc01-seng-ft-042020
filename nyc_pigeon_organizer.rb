@@ -9,7 +9,7 @@
         end
 
         if !new_hash[name].has_key?(properties)
-          new_hash[name] = []
+          new_hash[name][properties] = []
         end
 
         if !new_hash[name][properties].include?[attributes]
@@ -20,4 +20,4 @@
      end
    end
    new_hash
- end 
+ end
