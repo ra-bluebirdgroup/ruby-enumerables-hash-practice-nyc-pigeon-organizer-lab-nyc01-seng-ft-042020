@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   # data.uniq
   data.each{|i| names + i }
   pigeons_by_name = {names}.inject do |memo, name|
-    memo: word
+    memo : name 
 end
 pigeons_by_name
 end
