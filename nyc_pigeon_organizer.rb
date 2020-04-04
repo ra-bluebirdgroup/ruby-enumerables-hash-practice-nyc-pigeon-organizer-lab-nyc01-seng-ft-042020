@@ -5,11 +5,8 @@ def nyc_pigeon_organizer(data)
   # data.flatten
   # data.uniq
   data.each{ |attributes|
-    attributes.each{ |adj|
-      adj.each {|dogs| names << dogs}
-    }
-  }
-  
+      attributes.to_s
+
   binding.pry
  #pigeons_by_name = {names}.inject do |memo, name|
 # pigeons_by_name
