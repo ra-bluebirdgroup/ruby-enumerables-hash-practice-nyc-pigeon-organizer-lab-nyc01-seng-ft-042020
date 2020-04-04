@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       adj.each {|dogs| names << dogs}
     }
   }
-  names.each{ |chr|  }
+  
   binding.pry
  #pigeons_by_name = {names}.inject do |memo, name|
 # pigeons_by_name
